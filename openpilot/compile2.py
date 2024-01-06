@@ -9,7 +9,6 @@ if "OPT" not in os.environ: os.environ["OPT"] = "99"
 
 OPENPILOT_MODEL = "https://github.com/commaai/openpilot/raw/v0.9.4/selfdrive/modeld/models/supercombo.onnx"
 
-# Adding comment here for educational purposes
 import onnx
 from tqdm import tqdm
 from typing import Tuple, List, Optional, Dict
